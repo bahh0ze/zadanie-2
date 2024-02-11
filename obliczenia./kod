@@ -1,0 +1,5 @@
+print('Cześć, ten program pozwoli obliczyć Ci pole i obwód koła z podanego przez Ciebie promienia!')
+r = float(input ('Podaj promień:'))
+unit = input('Podaj jednostkę:')
+print(f'Pole Twojego koła wynosi {3.14 * r ** 2} {unit}2')
+print(f'Obwód tego koła to {2 * 3.14 * r} {unit}')
